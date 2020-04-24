@@ -13,7 +13,7 @@ const JoinChat = () => {
         <h1 className="heading">Join</h1>
         <div>
           <input
-            placeholder=""
+            placeholder="Your name"
             className="joinInput"
             type="text"
             onChange={(event) => setUserName(event.target.value)}
@@ -21,7 +21,7 @@ const JoinChat = () => {
         </div>
         <div>
           <input
-            placeholder=""
+            placeholder="Chat room name"
             className="joinInput mt-20"
             type="text"
             onChange={(event) => setRoomName(event.target.value)}
