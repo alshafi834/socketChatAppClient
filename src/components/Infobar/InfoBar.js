@@ -12,7 +12,9 @@ const InfoBar = ({ room }) => {
       </div>
       <div className="rightInnerContainer">
         <a href="/">
-          <i class="fas fa-times" className="cancelChat"></i>
+          <span className="cancelChat">
+            <i class="fas fa-times"></i>
+          </span>
         </a>
       </div>
     </div>
